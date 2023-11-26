@@ -1,0 +1,17 @@
+[
+    {
+        "image": "../../asset/beranda/kurikulum.png",
+        "title": "Kurikulum Terbaru",
+        "description": "Menerapkan kurikulum terbaru agar siswa mendapatkan materi terbaru"
+    },
+    {
+        "image":"../../asset/beranda/waktu.png",
+        "title":"Efektifitas Waktu Belajar",
+        "description":"Waktu belajar yang dirancang agar para siswa tidak jenuh dan menerima pelajaran"
+    },
+    {
+        "image":"../../asset/beranda/bakat.png",
+        "title":"Penyaluran Bakat dan Minat",
+        "description":"Berbagai macam kegitan akademik maupun non akademik untuk mendukung bakat minat"
+    }
+]
