@@ -1,0 +1,50 @@
+[
+    {
+        "img": "../../asset/galeri/1.png",
+        "text": "Ruang Kelas"
+    },
+    {
+        "img": "../../asset/galeri/2.png",
+        "text": "Belajar Mengajar"
+    },
+    {
+        "img": "../../asset/galeri/3.png",
+        "text": "Lorong Sekolah"
+    },
+    {
+        "img": "../../asset/galeri/4.png",
+        "text": "Kelas Bahsa Inggris"
+    },
+    {
+        "img": "../../asset/galeri/5.png",
+        "text": "Karya Murid"
+    },
+    {
+        "img": "../../asset/galeri/6.png",
+        "text": "Tamasya Sekolah"
+    },
+    {
+        "img": "../../asset/galeri/7.png",
+        "text": "Lomba Tarik Tambang"
+    },
+    {
+        "img": "../../asset/galeri/8.png",
+        "text": "Halaman Sekolah"
+    },
+    {
+        "img": "../../asset/galeri/9.png",
+        "text": "Pameran Teknologi"
+    },
+    {
+        "img": "../../asset/galeri/10.png",
+        "text": "Belajar Menggambar"
+    },
+    {
+        "img": "../../asset/galeri/11.png",
+        "text": "Tugas Kelompok"
+    },
+    {
+        "img": "../../asset/galeri/12.png",
+        "text": "Belajar dan Bermain"
+    }
+]

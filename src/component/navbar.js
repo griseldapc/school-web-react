@@ -1,46 +1,31 @@
-import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import React from 'react';
 
-
-export default class Navbar extends Component {
-  render() {
-    return (
-      <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{ backgroundImage: "url('../../asset/beranda/Vector 1.png')", backgroundSize: "cover", backgroundPosition: "top", overflowY: "auto", height: "120vh", marginTop: "-70px", zIndex: -1}}>
-        <div className="container-fluid" style={{ padding: "70px", marginTop: "-450px"}}>
-          <a className="navbar-brand" href="#">
-            <img src="../../asset/header-footer/header.png" alt="Header Logo" style={{ zIndex: 1000 }} />
-          </a>
-
-
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div>
-            <ul className="navbar-nav gap-3">
-              <li className="nav-item">
-                <a className="nav-link active border-bottom border-white border-2" aria-current="page" href="#" style={{ color: 'white' }}>Beranda</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: 'white' }}>Tentang</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: 'white' }}>Galeri</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: 'white' }}>Artikel</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" style={{ color: 'white' }}>Kontak</a>
-              </li>
-            </ul>
-
-          </div>
-          <div>
-            <button className='rounded px-4 px-3 py-1' style={{ backgroundColor: 'rgba(255, 255, 255, 0.4)', color: 'white', border: 'rgba(255, 255, 255, 0.4)' }}>PPDB</button>
-
-          </div>
-        </div>
-      </nav>
-    );
-  }
+export default function Header() {
+  return (
+    <>
+      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" >
+        <Container style={{ marginTop: "30px"}}>
+          <Navbar.Brand href="#home" style={{ zIndex: 1000 }}>
+            <img src="../../asset/header-footer/header.png" alt="" />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mx-auto gap-3" style={{ zIndex: 1000 }}>
+            <Nav.Link href="/" className="active border-bottom border-white border-2" style={{ color: 'white' }} >Beranda</Nav.Link>
+              <Nav.Link href="/tentang" style={{ color: 'white' }}>Tentang</Nav.Link>
+              <Nav.Link href="/galeri" style={{ color: 'white' }}>Galeri</Nav.Link>
+              <Nav.Link href="/artikel" style={{ color: 'white' }}>Artikel</Nav.Link>
+              <Nav.Link href="/kontak" style={{ color: 'white' }}>Kontak</Nav.Link>
+            </Nav>
+            <Nav style={{ zIndex: 1000 }}>
+              <Nav.Link href="#">
+                <Button>PPDB</Button>
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
+  );
 }
