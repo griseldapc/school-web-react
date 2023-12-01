@@ -22,13 +22,13 @@ export default function Beranda() {
             <nav>
                 <section style={{ position: "relative", backgroundImage: "url('../../asset/beranda/Vector 1.png')", backgroundSize: "cover", backgroundPosition: "top", overflowY: "auto", height: "120vh", marginTop: "-150px", zIndex: 1 }}>
                     <div className='d-flex flex-row justify-content-between' style={{ position: "relative", zIndex: 1000, marginTop: "150px", color: "white", padding: "70px" }}>
-                        <div style={{ zIndex: 2, marginTop: "50px" }}>
-                            <h1 style={{ fontSize: "45px", width: "550px" }}>Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik</h1>
-                            <p style={{ width: "450px", fontSize: "15px" }}>jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat</p>
-                            <button className='rounded 4-px px-3 py-1 btn btn-light' style={{ color: '#58C9BF' }}>Daftar Sekarang</button>
+                        <div style={{ zIndex: 2 }}>
+                            <h1 style={{ fontSize: "48px" }}>Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik</h1>
+                            <p style={{ maxWidth: "600px", fontSize: "20px" }}>jelajahi semua pengetahuan dan ilmu yang berguna bersama kami, untuk kehidupan yang lebih bermanfaat</p>
+                            <button className='rounded 4-px px-3 py-2 btn btn-light fw-semibold' style={{ color: '#58C9BF' }}>Daftar Sekarang</button>
                         </div>
                         <div style={{ zIndex: 2 }}>
-                            <img src='../../asset/beranda/hero.png' style={{ width: "430px" }} alt="Hero Image" />
+                            <img src='../../asset/beranda/hero.png' className="pr-10" style={{ width: "430px" }} alt="Hero Image" />
                         </div>
                     </div>
                 </section>
@@ -36,7 +36,7 @@ export default function Beranda() {
                 <section className='d-flex flex-row justify-content-between' style={{ paddingTop: "50px", padding: "70px" }}>
                     <img src='../../asset/beranda/tentangkami.png' style={{ width: "350px" }}></img>
                     <ul className='justify-content-center my-auto'>
-                        <h1 style={{ fontWeight: 'bold' }}>
+                        <h1 style={{ fontWeight: 'bold', fontSize: "50px" }}>
                             Tentang Kami
                         </h1>
                         <p className='fs-5' style={{ width: "650px", textAlign: 'justify' }}>
@@ -46,18 +46,18 @@ export default function Beranda() {
                 </section>
 
                 <section>
-                    <div className="position-relative" style={{ backgroundImage: "url('../../asset/beranda/Vector 2.png')", backgroundSize: "cover", backgroundPosition: "top", overflowY: "auto", height: "120vh", marginTop: "-70px", zIndex: -1 }}>
+                    <div className="position-relative" style={{ backgroundImage: "url('../../asset/beranda/Vector 2.png')", backgroundSize: "cover", backgroundPosition: "top", height: "120vh", marginTop: "-70px", zIndex: -1 }}>
                         <div className="d-flex flex-wrap gap-3" style={{ padding: "70px", paddingTop: "220px", justifyContent: "center", alignItems: "center" }}>
                             {jsonKurikulum.map((item, index) => (
                                 <a key={index} href="#" className="group" style={{ textDecoration: "none" }}>
                                     <div>
-                                        <ul className='d-flex flex-row gap-3 bg-white rounded 4-px py-5' style={{ width: "500px", height: "180px" }}>
-                                            <img src={item.image} style={{ height: "80px" }}></img>
-                                            <div>
-                                                <h1 className='fs-5' style={{ color: '#1C2661', fontWeight: 'bold' }}>{item.title}</h1>
-                                                <p style={{ width: "350px", color: "black", fontSize: '0.90rem' }}>{item.description}</p>
-                                            </div>
-                                        </ul>
+                                    <ul className='align-items-center justify-content-center shadow-lg d-flex flex-row gap-3 bg-white rounded 4-px px-4' style={{ width: "550px", height: "215px"}}>                      
+                      <img className="align-items-center justify-content-center" src={item.image} style={{ height: "90px", marginLeft: "-15px"}}></img>
+                      <div>
+                        <h1 className='fs-4 ' style={{ color: '#1C2661', fontWeight: 'bold', marginTop: "15px" }}>{item.title}</h1>
+                        <p className="" style={{ width: "360px", color: '#3A3B41', fontSize: '15px',  }}>{item.description}</p>
+                      </div>
+                    </ul>
                                     </div>
                                 </a>
                             ))}
@@ -67,10 +67,10 @@ export default function Beranda() {
 
                 <section>
                     <div style={{ padding: '70px' }}>
-                        <h1 style={{ fontWeight: 'bold', marginTop: "50px" }}>Galeri</h1>
+                        <h1 style={{ fontWeight: 'bold', marginTop: "20px", fontSize: "50px" }}>Galeri</h1>
                         <h2 className="d-flex justify-content-between">
-                            <p className="fs-4" style={{ fontWeight: 'normal' }}>Dokumentasi Sekolah Kami</p>
-                            <button className='d-flex align-items-center rounded 4-px py-1 btn btn-primary' style={{ color: 'white', paddingLeft: '20px' }}>
+                            <p style={{ fontWeight: 'normal', fontSize: "20px", color: '#1C2661' }}>Dokumentasi Sekolah Kami</p>
+                            <button className='d-flex align-items-center rounded 4-px btn btn-primary' style={{ background: '#3190DC', color: 'white', paddingLeft: '20px', fontSize: "17px" }}>
                                 Lihat Semua
                                 <img src="../../asset/header-footer/next.png" alt="Icon" style={{ width: '30px' }} />
                             </button>
@@ -86,36 +86,36 @@ export default function Beranda() {
                 </section>
 
                 <section>
-                    <div style={{ padding: "70px" }}>
-                        <h1 style={{ fontWeight: 'bold' }}>Artikel</h1>
+                    <div style={{ padding: "70px", marginTop: "-30px" }}>
+                        <h1 style={{ fontWeight: 'bold', fontSize: "50px" }}>Artikel</h1>
                         <h2 className="d-flex justify-content-between fs-5" style={{ paddingTop: "20px" }}>
                             <ul className="d-flex gap-5" style={{ fontWeight: 'normal', paddingLeft: 0 }}>
-                                <p className="border-bottom border-info border-2" style={{ fontWeight: 'bold', marginBottom: '5px' }}>Semua</p>
-                                <p>Berita</p>
-                                <p>Kegiatan Sekolah</p>
+                                <p className="border-bottom border-info border-2" style={{ fontWeight: 'bold', marginBottom: '5px', color: '#404040', borderColor: '#3190DC', width: "100px", textAlign: 'center', fontSize: "20px" }}>Semua</p>
+                                <p style={{ color: '#404040', fontSize: "20px" }}>Berita</p>
+                                <p style={{ color: '#404040', fontSize: "20px" }}>Kegiatan Sekolah</p>
                             </ul>
                             <ul style={{ color: '#3190DC' }}>
                                 Lihat Semua
-                                <img src="../../asset/header-footer/next2.png" alt="Icon" style={{ width: '30px', fontWeight: 'normal' }} />
+                                <img src="../../asset/header-footer/next2.png" alt="Icon" style={{ width: '30px', fontWeight: 'normal', fontSize: "20px"  }} />
                             </ul>
                         </h2>
 
                         <div className="d-flex gap-4">
                             {jsonArtikel.map((item, index) => (
                                 <a key={index} href="#" className="group" style={{ textDecoration: "none" }}>
-                                    <h1 className="border border-info border-2 p-4" style={{ width: "350px", borderRadius: '20px', margin: "10px", marginLeft: 0 }}>
+                                    <h1 className="border border-info border-2 p-4" style={{ width: "350px", borderRadius: '20px', margin: "10px", marginLeft: 0, height: "420px" }}>
                                         <ul style={{ paddingLeft: 0 }}>
                                             <img src={item.img} alt="Article" style={{ width: '100%' }} />
                                             <div className="d-flex justify-content-center align-items-center">
-                                                <button className="rounded-pill fs-6 px-3 py-1" style={{ background: 'linear-gradient(#4BA3EB, #5DDAAA)', color: 'white', border: 'none', position: 'absolute', zIndex: '1' }}>
+                                                <button className="rounded-pill px-3 py-2" style={{ background: 'linear-gradient(#4BA3EB, #5DDAAA)', color: 'white', border: 'none', position: 'absolute', zIndex: '1', fontSize: "14px" }}>
                                                     12 Desember 2021
                                                 </button>
                                             </div>
                                         </ul>
-                                        <p className="fs-6" style={{ fontWeight: 'bold', paddingTop: "10px", color: "black" }}>
+                                        <p style={{ fontWeight: 'bold', paddingTop: "17px", color: '#1C2661', fontSize: "17px" }}>
                                             Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
                                         </p>
-                                        <p style={{ fontSize: '14px', fontWeight: 'normal', textAlign: 'justify', color: "black" }}>
+                                        <p style={{ fontSize: '14px', fontWeight: 'normal', textAlign: 'justify', color: '#3A3B41' }}>
                                             Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .
                                         </p>
                                     </h1>

@@ -1,14 +1,22 @@
 [
     {
-        "image": "../../asset/tentang kami/g1.png"
+        "image": "../../asset/tentang kami/g1.png",
+        "name": "Jeannete Ong",
+        "desc": "Kepala Sekolah"
     },
     {
-        "image": "../../asset/tentang kami/g2.png"
+        "image": "../../asset/tentang kami/g2.png",
+        "name":"John Smith",
+        "desc": "Kepala Staff"
     },
     {
-        "image": "../../asset/tentang kami/g3.png"
+        "image": "../../asset/tentang kami/g3.png",
+        "name": "Lidya M.P",
+        "desc": "Guru Matematika"
     },
     {
-        "image": "../../asset/tentang kami/g4.png"
+        "image": "../../asset/tentang kami/g4.png",
+        "name": "William",
+        "desc": "Guru Fisika"
     }
 ]
