@@ -30,7 +30,7 @@ export default function App() {
           <Route path="/detail_artikel" element={<Detail_artikel />} />
           <Route path="/kontak" element={<Kontak />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

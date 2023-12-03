@@ -49,7 +49,7 @@ export default function Beranda() {
           </ul>
         </div>
 
-        <div className="mini-card d-lg-flex d-md-flex flex-wrap gap-lg-3 gap-md-1">
+        <div className="mini-card d-lg-flex d-md-flex flex-lg-wrap flex-md-wrap flex-wrap gap-lg-3 gap-md-1">
           {jsonKegiatan.map((item, index) => (
             <a key={index} href="#" className="group">
               <h1 className="cover border border-info border-2 p-4">

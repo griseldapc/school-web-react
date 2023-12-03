@@ -22,7 +22,7 @@ export default function Beranda() {
     <>
       <nav>
         <section className="tentang1" style={{backgroundImage: "url('../../asset/beranda/Vector 1.png')"}}>
-          <div className='tentang1-gambar d-flex flex-row justify-content-between'>
+          <div className='tentang1-gambar d-lg-flex d-md-flex flex-row justify-content-between'>
             <div className="tentang1-text">
               <h1>Tentang Kami</h1>
               <p>Profil sekolah kami dan beberapa info penting tentang sekolah ini agar anda lebih yakin dan mengerti.</p>
@@ -49,10 +49,10 @@ export default function Beranda() {
               {jsonKurikulum.map((item, index) => (
                 <a key={index} href="#" className="unggul-group">
                   <div>
-                    <ul className='align-items-center justify-content-center shadow-lg d-flex flex-row gap-3 bg-white rounded 4-px px-4'>
+                    <ul className='align-items-center justify-content-center shadow-lg d-lg-flex d-md-flex flex-row gap-3 bg-white rounded 4-px px-4'>
                       <img className="align-items-center justify-content-center" src={item.image}></img>
                       <div>
-                        <h1 className='fs-4 '>{item.title}</h1>
+                        <h1>{item.title}</h1>
                         <p>{item.description}</p>
                       </div>
                     </ul>
@@ -63,34 +63,34 @@ export default function Beranda() {
           </div>
         </section>
 
-        <section>
-          <div className="tentang4-bungkus">
-            <h1 style={{ fontWeight: 'bold', marginTop: "20px", fontSize: "50px" }}>Guru & Staff Sekolah</h1>
-            <h2 className="d-flex justify-content-between">
-              <p className="tentang4-desc">Perkenalan Anggota Sekolah</p>
-              <button className='lihat d-flex align-items-center rounded 4-px btn btn-primary'>
-                Lihat Semua
-                <img src="../../asset/header-footer/next.png" alt="Icon" />
-              </button>
-            </h2>
-            <h3 className=" tentang4-card d-flex gap-4">
-              {jsonGuru.map((item, index) => (
-                <a key={index} href="#" className="tentang4-group">
-                  <img src={item.image}></img>
-                  <h1 className="fw-semibold justify-content-center">
-                    {item.name}
-                  </h1>
-                  <p className="justify-content-center">{item.desc}</p>
-                </a>
-              ))}
-            </h3>
-          </div>
-        </section>
+          <section>
+            <div className="tentang4-bungkus">
+              <h1>Guru & Staff Sekolah</h1>
+              <h2 className="d-lg-flex d-md-flex justify-content-between">
+                <p className="tentang4-desc">Perkenalan Anggota Sekolah</p>
+                <button className='lihat d-lg-flex d-md-flex align-items-center rounded 4-px btn btn-primary'>
+                  Lihat Semua
+                  <img src="../../asset/header-footer/next.png" alt="Icon" />
+                </button>
+              </h2>
+              <h3 className=" tentang4-card d-lg-flex d-md-flex flex-md-wrap gap-lg-4 gap-md-3">
+                {jsonGuru.map((item, index) => (
+                  <a key={index} href="#" className="tentang4-group">
+                    <img src={item.image}></img>
+                    <h1 className="fw-semibold justify-content-center">
+                      {item.name}
+                    </h1>
+                    <p className="justify-content-center">{item.desc}</p>
+                  </a>
+                ))}
+              </h3>
+            </div>
+          </section>
 
         <section>
           <div className="tentang5">
             <h1>Video Profil</h1>
-            <p className="fs-5" style={{ color: '#1C2661' }}>Cuplikan Sekolah</p>
+            <p style={{ color: '#1C2661' }}>Cuplikan Sekolah</p>
             <h2 className="border border-info border-2 p-4">
               <img src="../../asset/tentang kami/video.png"></img>
             </h2>
