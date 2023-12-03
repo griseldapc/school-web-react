@@ -1,0 +1,468 @@
+@media (max-width: 1440px){
+
+    /* SECTION 1 */
+    .galeri1{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 125vh;
+        margin: -220px 0 0 0;
+        z-index: 1;
+    }
+
+    .galeri1 .galeri-gambar{
+        position: relative;
+        z-index: 1000;
+        margin-top: 150px;
+        color: white;
+        padding: 70px;
+        padding-top: 200px;    
+    }
+
+    .galeri1 .galeri-text{
+        z-index: 2;
+        margin-top: 100px;
+    }
+
+    .galeri1 .galeri-text h1{
+        font-size: 60px;
+        width: 550px;         
+    }
+
+    .galeri1 .galeri-text p{
+        width: 500px;
+        font-size: 20px;
+    }
+
+    .galeri-image{
+        z-index: 2;
+    }
+
+    .galeri-image img{
+        width: 450px;
+    }
+
+
+    /* SECTION 2 */
+    .galeri2{
+        margin-top: 50px;
+        padding: 70px;
+    }
+
+    .bungkus{
+        margin-bottom: 50px;
+    }
+
+    .galeri2-semua{
+        font-weight: bolder;
+        border-bottom: 3px solid #3190DC;
+        width: 150px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 10px;
+        color: #404040;
+        font-size: 20px;
+    }
+
+    .galeri2-gedung{
+        margin-top: -10px;
+        color: #404040;
+        font-size: 20px;
+    }
+
+    .galeri2-sekolah{
+        margin-top:-10px;
+        color: #404040;
+        font-size: 20px;
+    }
+    
+    .galeri2-card h1{
+        position: relative;
+        margin-top: -5px;
+    }
+
+    .galeri2 img{
+        height: 291px;
+    }
+
+    .galeri2-text{
+        height: 200px;
+        width: 364px;
+        background-image: linear-gradient(180.13deg, rgba(255, 255, 255, 0) 54.94%, rgba(65, 118, 210, 0.576875) 90.77%, rgba(57, 113, 208, 0.6) 99.89%);
+        text-align: center;
+        color: white;
+        padding-top: 160px;
+        margin: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        font-size: 18px;
+    }
+
+    .data{
+        margin-top: 30px;
+    }
+
+    .data h1{
+        font-size: 17px;
+        color: #3A3B41;
+        font-weight: normal;
+    }
+
+    .data p{
+        font-size: 17px;
+        font-weight: normal;
+    }
+
+    .tampil .satu{
+        transform: rotate(90deg);
+        height: 20px;
+    }
+
+    .tampil .first{
+        font-size: 17px;
+        color: #3190DC;
+        font-weight: bolder;
+    }
+
+    .tampil p{
+        font-size: 17px;
+        font-weight: normal;
+    }
+    
+    .tampil .dua{
+        transform: rotate(-90deg);
+        height: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+ /* SECTION 1 */
+ .galeri1{
+    position: relative;
+    background-size: cover;
+    background-position: top;
+    height: 122vh;
+    margin: -300px 0 0 0;
+    z-index: 1;
+}
+
+.galeri1 .galeri-gambar{
+    position: relative;
+    z-index: 1000;
+    margin-top: 150px;
+    color: white;
+    padding: 70px;
+    padding-top: 300px;    
+}
+
+.galeri1 .galeri-text{
+    z-index: 2;
+    margin-left: -40px;
+
+}
+
+.galeri1 .galeri-text h1{
+    font-size: 50px;    
+    margin-top: -70px;    
+}
+
+.galeri1 .galeri-text p{
+    width: 300px;
+    font-size: 15px;
+}
+
+.galeri-image{
+    z-index: 2;
+}
+
+.galeri-image img{
+    width: 300px;
+    margin-left: -140px;
+    margin-top: -20px;
+}
+
+/* SECTION 2 */
+.galeri2{
+    margin-top: 50px;
+    padding: 27px;
+}
+
+.bungkus{
+    margin-bottom: 50px;
+}
+
+.galeri2-semua{
+    font-weight: bolder;
+    border-bottom: 3px solid #3190DC;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #404040;
+    font-size: 15px;
+}
+
+.galeri2-gedung{
+    margin-top: -10px;
+    color: #404040;
+    font-size: 15px;
+}
+
+.galeri2-sekolah{
+    margin-top:-10px;
+    color: #404040;
+    font-size: 15px;
+}
+
+.galeri2-card h1{
+    position: relative;
+    margin-top: -5px;
+}
+
+.galeri2 img{
+    height: 177px;
+}
+
+.galeri2-text{
+    height: 200px;
+    width: 221px;
+    background-image: linear-gradient(180.13deg, rgba(255, 255, 255, 0) 54.94%, rgba(65, 118, 210, 0.576875) 90.77%, rgba(57, 113, 208, 0.6) 99.89%);
+    text-align: center;
+    color: white;
+    padding-top: 170px;
+    margin: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 15px;
+}
+
+.data{
+    margin-top: 30px;
+}
+
+.data h1{
+    font-size: 15px;
+    color: #3A3B41;
+    font-weight: normal;
+}
+
+.data p{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.tampil .satu{
+    transform: rotate(90deg);
+    height: 20px;
+}
+
+.tampil .first{
+    font-size: 15px;
+    color: #3190DC;
+    font-weight: bolder;
+}
+
+.tampil p{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.tampil .dua{
+    transform: rotate(-90deg);
+    height: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+    /* SECTION 1 */
+    .galeri1{
+       position: relative;
+       background-size: cover;
+       background-position: top;
+       height: 160vh;
+       margin: -300px 0 0 0;
+       z-index: 1;
+   }
+   
+   .galeri1 .galeri-gambar{
+       position: relative;
+       z-index: 1000;
+       margin-top: 150px;
+       color: white;
+       padding: 70px;
+       padding-top: 300px;
+       margin-left: 4px;    
+   }
+   
+   .galeri1 .galeri-text{
+       z-index: 2;
+       margin-top: 50px;  
+   }
+   
+   .galeri1 .galeri-text h1{
+       font-size: 35px;    
+       width: 0px;   
+   }
+   
+   .galeri1 .galeri-text p{
+       font-size: 15px;
+       width: 270px;
+   }
+   
+   .galeri-image{
+       z-index: 2;
+       margin-left: 95px;
+   }
+   
+   .galeri-image img{
+       width: 260px;
+       margin-top: 10px;
+   }
+   
+   /* SECTION 2 */
+   .galeri2{
+       margin-top: 20px;
+       padding: 27px;
+   }
+   
+   .bungkus{
+       margin-bottom: 50px;
+   }
+   
+   .galeri2-semua{
+       font-weight: bolder;
+       color: #404040;
+       font-size: 12px;
+       display: inline-block;
+       width: 57px;
+   }
+   
+   .galeri2-gedung{
+       margin-top: -10px;
+       color: #404040;
+       font-size: 12px;
+   }
+   
+   .galeri2-sekolah{
+       margin-top:-10px;
+       color: #404040;
+       font-size: 12px;
+   }
+   
+   .galeri2-card h1{
+       position: relative;
+       margin-top: -5px;
+       margin-left: 6px;
+   }
+   
+   .galeri2 img{
+       height: 205px;
+   }
+   
+   .galeri2-text{
+       height: 200px;
+       width: 256px;
+       background-image: linear-gradient(180.13deg, rgba(255, 255, 255, 0) 54.94%, rgba(65, 118, 210, 0.576875) 90.77%, rgba(57, 113, 208, 0.6) 99.89%);
+       text-align: center;
+       color: white;
+       padding-top: 170px;
+       margin: 0;
+       border-bottom-left-radius: 12px;
+       border-bottom-right-radius: 12px;
+       font-size: 15px;
+   }
+   
+   .data{
+       margin-top: 30px;
+       margin-left: 6px;
+   }
+   
+   .data h1{
+       font-size: 10px;
+       color: #3A3B41;
+       font-weight: normal;
+       width: 100px;
+   }
+   
+   .data p{
+       font-size: 10px;
+       font-weight: normal;
+       width: 5px;
+   }
+   
+   .tampil .satu{
+       transform: rotate(90deg);
+       height: 10px;
+       margin-left: 15px;
+   }
+   
+   .tampil .first{
+       font-size: 10px;
+       color: #3190DC;
+       font-weight: bolder;
+   }
+   
+   .tampil p{
+       font-size: 10px;
+       font-weight: normal;
+   }
+   
+   .tampil .dua{
+    transform: rotate(-90deg);
+    height: 10px;
+   }
+   }

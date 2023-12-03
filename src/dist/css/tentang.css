@@ -1,0 +1,186 @@
+@media (min-width: 767px){
+
+    /* SECTION 1 */
+    .tentang1{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 122vh;
+        margin: -220px 0 0 0;
+        z-index: 1;
+    }
+
+    .tentang1-gambar{
+        position: relative;
+        z-index: 1000;
+        margin-top: 150px;
+        color: white;
+        padding: 70px;
+        padding-top: 235px;    
+    }
+
+    .tentang1-text{
+        z-index: 2;
+        margin-top: 50px;
+    }
+
+    .tentang1-text h1{
+        font-size: 60px;
+        width: 550px;
+    }
+
+    .tentang1-text p{
+        width: 550px;
+        font-size: 20px;
+    }
+
+    .tentang1-image{
+        z-index: 2;
+    }
+
+    .tentang1-image img{
+        width: 450px;
+    }
+
+    /* SECTION 1 */
+    .tentang2{
+        padding: 70px;
+    }
+
+    .tentang2-judul{
+        color: #1C2661;
+        font-size: 20px;
+    }
+
+    .tentang2 h1{
+        font-weight: bold;
+    }
+
+    .tentang2 p{
+        color: #3A3B41;
+         font-size: 20px;
+         width: 1160px;
+    }
+
+    /* SECTION 3 */
+    .tentang3{
+        background-size: cover;
+        background-position: top;
+        height: 120vh;
+        z-index: 1;
+    }
+
+    .tentang3-judul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+        font-size: 60px;
+        color: white;
+        padding-top: 200px;
+    }
+
+    .unggul{
+        padding: 70px;
+        margin-top: -20px;
+        justify-content: center;
+    }
+
+    .unggul-group{
+        text-decoration: none;
+    }
+
+    .unggul ul{
+        width: 550px;
+        height: 215px;
+    }
+    .unggul img{
+        height: 90px;
+        margin-left: -15px;
+    }
+
+    .unggul h1{
+        color: #1C2661;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .unggul p{
+        width: 360px;
+        color: #3A3B41;
+        font-size: 15px;
+    }
+
+    /* SECTION 4 */
+    .tentang4-bungkus{
+        padding: 70px;
+        margin-top:150px;
+    }
+
+    .tentang4-desc{
+        font-weight: normal;
+        font-size: 20px;
+        color: #1C2661;
+    }
+
+    .lihat{
+        background: #3190DC;
+        color: white;
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .lihat img{
+        width: 30px;
+    }
+
+    .tentang4-group{
+        text-decoration: none;
+    }
+
+    .tentang4-group img{
+        padding-top: 30px;
+        width: 262px;
+    }
+
+    .tentang4-group h1{
+        font-size: 20px;
+        color: #19245F;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .tentang4-group p{
+        font-size: 15px;
+        color: #2E334E;
+        text-align: center;
+        margin-top: 12px;
+        font-weight: normal;
+    }
+
+    /* SECTION 5 */
+    .tentang5{
+        padding: 70px;
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .tentang5 h1{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .tentang5 h2{
+        width: 1125px;
+        border-radius: 20px;
+        margin: 10px;
+        margin-left: 0;
+        margin-top: 50px;
+        height: 610px;
+    }
+
+    .tentang5 img{
+        width: 1060px;
+        margin-top: 6px;
+    }
+}

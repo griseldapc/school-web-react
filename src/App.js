@@ -7,7 +7,7 @@ import Tentang from './component/tentang';
 import Galeri from './component/galeri';
 import Artikel from './component/artikel';
 import Kontak from './component/kontak';
-import DetailArtikel from './component/detailArtikel';
+import Detail_artikel from './component/detail_artikel';
 import { Footer } from './component/footer';
 
 export default function App() {
@@ -27,10 +27,10 @@ export default function App() {
           <Route path="/tentang" element={<Tentang />} />
           <Route path="/galeri" element={<Galeri />} />
           <Route path="/artikel" element={<Artikel />} />
-          <Route path="/detailArtikel" element={<DetailArtikel />} />
+          <Route path="/detail_artikel" element={<Detail_artikel />} />
           <Route path="/kontak" element={<Kontak />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

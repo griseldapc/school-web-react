@@ -1,0 +1,233 @@
+@media (min-width: 767px){
+    /* SECTION 1 */
+    .beranda1{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 122vh;
+        margin-top: -220px;
+        z-index: 1;
+    }
+
+    .beranda1-gambar{
+        position: relative;
+        z-index: 1000;
+        margin-top: 150px;
+        color: white;
+        padding: 70px;
+        padding-top: 235px;   
+    }
+
+    .beranda1-bungkus{
+        z-index: 2;
+    }
+
+    .beranda1-bungkus h1{
+        font-size: 48px;
+    }
+
+    .beranda1-bungkus p{
+        max-width: 600px;
+        font-size: 20px;
+    }
+
+    .beranda1-bungkus .daftar{
+        color: #58C9BF;
+    }
+
+    .beranda1-image{
+        z-index: 2;
+    }
+
+    .beranda1-image img{
+        width: 430px;
+    }
+
+    /* SECTION 2 */
+    .beranda2{
+        padding-top: 50px;
+        padding: 70px;
+    }
+
+    .beranda2 img{
+        width: 350px;
+    }
+
+    .beranda2 h1{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .beranda2 p{
+        width: 650px;
+        text-align: justify;
+    }
+
+    /* SECTION 3 */
+    .beranda3{
+        background-size: cover;
+        background-position: top;
+        height: 120vh;
+        z-index: 1;
+        margin-top: -70px
+    }
+
+    .beranda3-bungkus{
+        padding: 70px;
+        padding-top: 220px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beranda3-group{
+        text-decoration: none;
+    }
+
+    .beranda3-group ul{
+        width: 550px;
+        height: 215px;
+    }
+
+    .beranda3-gambar{
+        height: 90px;
+        margin-left: -15px;
+    }
+
+    .beranda3 h1{
+        color: #1C2661;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    .beranda3 p{
+        width: 360px;
+        color: #3A3B41;
+        font-size: 15px;
+    }
+
+    /* SECTION 4 */
+    .beranda4{
+        padding: 70px;
+    }
+
+    .beranda4 h1{
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+
+    .beranda4 p{
+        font-weight: normal;
+        font-size: 20px;
+        color: #1C2661;
+    }
+
+    .beranda4-lihat{
+        background: #3190DC;
+        color: white;
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .beranda4-lihat img{
+        width: 30px;
+    }
+
+    .beranda4-group-gambar{
+        tex-decoration: none;
+    }
+
+    .beranda4-group-gambar img{
+        padding-top: 30px;
+        width: 262px;
+    }
+
+    /* SECTION 5 */
+    .beranda5{
+        padding: 70px;
+        margin-top: -30px;
+    }
+
+    .beranda5-judul{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .beranda5-bungkus{
+        padding-top: 20px;
+    }
+
+    .beranda5-bungkus ul{
+        font-weight: normal;
+        padding-left: 0;
+    }
+
+    .beranda5-bungkus semua{
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #404040;
+        border-color: #3190DC;
+        width: 100px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .beranda5-bungkus p{
+        color: #404040;
+        font-size: 20px;
+    }
+
+    .beranda5-lihat{
+        color: #3190DC;
+    }
+
+    .beranda5-lihat img{
+        width: 30px;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .beranda5-group-card{
+        text-decoration: none;
+    }
+
+    .beranda5-group-card h1{
+        width: 350px;
+        border-radius: 20px;
+        margin: 10px;
+        margin-left: 0;
+        height: 420px
+    }
+
+    .beranda5-group-card ul{
+        padding-left: 0;
+    }
+
+    .beranda5-group-card img{
+        width: 100%;
+    }
+
+    .beranda5-card{
+        background: linear-gradient(#4BA3EB, #5DDAAA);
+        color: white;
+        border: none;
+        position: absolute;
+        z-index: 1;
+        font-size: 14px;
+    }
+
+    .beranda5-judul{
+        font-weight: bold;
+        padding-top: 17px;
+        color: #1C2661;
+        font-size: 17px;
+    }
+
+    .beranda5-desc{
+        font-size: 14px;
+        font-weight: normal;
+        text-align: justify;
+        color: #3A3B41;
+    }
+
+}

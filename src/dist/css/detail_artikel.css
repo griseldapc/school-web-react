@@ -1,0 +1,182 @@
+@media (max-width: 1440px){
+    .detail-artikel{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 138vh;
+        margin: -220px 0 0 0;
+        z-index: 1;
+    }
+
+    .detail-content{
+        padding: 70px;
+    }
+
+    .detail-content img{
+        width: 100%;
+        padding-top: 300px;
+    }
+
+    .button-content {
+        background: linear-gradient(#4BA3EB, #5DDAAA);
+        color: white;
+        border: none;
+        z-index: 1;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .judul-content{
+        font-size: 50px;
+        font-weight: bold;
+        color: #1C2661;
+        width: 1100px;
+        margin-top: 20px;
+      }
+
+    .penulis-content{
+       font-size: 18px;
+       margin-top: 20px;
+    }
+
+    .deskripsi-content{
+       width: 1135px;
+       font-size: 18px;
+       margin-top: 10px;
+       text-align: justify;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .detail-artikel{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 138vh;
+        margin: -220px 0 0 0;
+        z-index: 1;
+    }
+
+    .detail-content{
+        padding: 30px;
+    }
+
+    .detail-content img{
+        width: 714px;
+        padding-top: 300px;
+    }
+
+    .button-content {
+        background: linear-gradient(#4BA3EB, #5DDAAA);
+        color: white;
+        border: none;
+        z-index: 1;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .judul-content{
+        font-size: 30px;
+        font-weight: bold;
+        color: #1C2661;
+        width: 700px;
+        margin-top: 20px;
+      }
+
+    .penulis-content{
+       font-size: 18px;
+       margin-top: 20px;
+    }
+
+    .deskripsi-content{
+       width: 710px;
+       font-size: 18px;
+       margin-top: 10px;
+       text-align: justify;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+    .detail-artikel{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 110vh;
+        margin: -220px 0 0 0;
+        z-index: 1;
+    }
+
+    .detail-content{
+        padding: 30px;
+    }
+
+    .detail-content img{
+        width: 260px;
+        padding-top: 300px;
+    }
+
+    .button-content {
+        background: linear-gradient(#4BA3EB, #5DDAAA);
+        color: white;
+        border: none;
+        z-index: 1;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    .judul-content{
+        font-size: 22px;
+        font-weight: bold;
+        color: #1C2661;
+        width: 272px;
+        margin-top: 20px;
+      }
+
+    .penulis-content{
+       font-size: 12px;
+       margin-top: 20px;
+    }
+
+    .deskripsi-content{
+       width: 260px;
+       font-size: 12px;
+       margin-top: 10px;
+       text-align: justify;
+    }
+}
