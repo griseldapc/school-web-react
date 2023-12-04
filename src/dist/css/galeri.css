@@ -82,13 +82,12 @@
     }
 
     .galeri2 img{
-        height: 295.5px;
-        gap: 5px;
+        height: 291.2px;
     }
 
     .galeri2-text{
         height: 200px;
-        width: 369px;
+        width: 364px;
         background-image: linear-gradient(180.13deg, rgba(255, 255, 255, 0) 54.94%, rgba(65, 118, 210, 0.576875) 90.77%, rgba(57, 113, 208, 0.6) 99.89%);
         text-align: center;
         color: white;
@@ -240,6 +239,7 @@
 .galeri2-card h1{
     position: relative;
     margin-top: -5px;
+    margin-left: 0.9px;
 }
 
 .galeri2 img{
@@ -411,12 +411,12 @@
    }
    
    .galeri2 img{
-       height: 205px;
+       height: 200px;
    }
    
    .galeri2-text{
        height: 200px;
-       width: 256px;
+       width: 250px;
        background-image: linear-gradient(180.13deg, rgba(255, 255, 255, 0) 54.94%, rgba(65, 118, 210, 0.576875) 90.77%, rgba(57, 113, 208, 0.6) 99.89%);
        text-align: center;
        color: white;
@@ -443,6 +443,7 @@
        font-size: 10px;
        font-weight: normal;
        width: 5px;
+       margin-left: 5px;
    }
    
    .tampil .satu{
@@ -465,5 +466,6 @@
    .tampil .dua{
     transform: rotate(-90deg);
     height: 10px;
+    margin-right: 10px;
    }
    }

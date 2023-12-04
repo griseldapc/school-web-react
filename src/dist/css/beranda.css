@@ -33,7 +33,9 @@
 
     .beranda1-bungkus .daftar{
         color: #58C9BF;
+        font-size: 16px;
     }
+
 
     .beranda1-image{
         z-index: 2;
@@ -62,6 +64,7 @@
         width: 650px;
         text-align: justify;
         font-size: 20px;
+
     }
 
     /* SECTION 3 */
@@ -70,7 +73,7 @@
         background-position: top;
         height: 122vh;
         z-index: 1;
-        margin-top: -70px
+        margin-top: -10px
     }
 
     .beranda3-bungkus{
@@ -85,7 +88,7 @@
     }
 
     .beranda3-group ul{
-        width: 557px;
+        width: 550px;
         height: 195px;
     }
 
@@ -141,13 +144,13 @@
 
     .beranda4-group-gambar img{
         padding-top: 30px;
-        width: 266.5px;
+        width: 263px;
     }
 
     /* SECTION 5 */
     .beranda5{
         padding: 70px;
-        margin-top: -30px;
+        margin-top: -50px;
     }
 
     .beranda5-judul{
@@ -186,6 +189,7 @@
         color: #3190DC;
         font-size: 20px;
         margin-top: -10px;
+        margin-right: -5px;
     }
 
     .beranda5-lihat img{
@@ -198,7 +202,7 @@
     }
 
     .beranda5-group-card h1{
-        width: 357px;
+        width: 352px;
         border-radius: 20px;
         margin: 10px;
         margin-left: 0;
@@ -394,15 +398,14 @@
     .beranda2 h1{
         font-weight: bold;
         font-size: 40px;
-        margin-left: -45px;
     }
 
     
     .beranda2 p{
-        width: 380px;
+        width: 390px;
         text-align: justify;
         font-size: 15px;
-        margin-left: -45px;
+        padding: 5px;
         
     }
 
@@ -724,16 +727,16 @@
     .beranda2 h1{
         font-weight: bold;
         font-size: 25px;
-        padding-left: 30px;
         margin-top: 50px;
+        margin-left: -25px;
     }
 
     
     .beranda2 p{
-        width: 277px;
+        width: 260px;
         text-align: justify;
         font-size: 13px;
-        padding-left: 30px;
+        margin-left: -25px;
         
     }
 

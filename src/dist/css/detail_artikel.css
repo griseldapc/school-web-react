@@ -5,7 +5,7 @@
         background-position: top;
         height: 138vh;
         margin: -220px 0 0 0;
-        z-index: 1;
+        z-index: 1000;
     }
 
     .detail-content{
@@ -21,7 +21,6 @@
         background: linear-gradient(#4BA3EB, #5DDAAA);
         color: white;
         border: none;
-        z-index: 1;
         font-size: 18px;
         margin-top: 30px;
     }
@@ -40,7 +39,7 @@
     }
 
     .deskripsi-content{
-       width: 1135px;
+       width: 1120px;
        font-size: 18px;
        margin-top: 10px;
        text-align: justify;
@@ -71,7 +70,6 @@
         background-position: top;
         height: 138vh;
         margin: -220px 0 0 0;
-        z-index: 1;
     }
 
     .detail-content{
@@ -87,7 +85,6 @@
         background: linear-gradient(#4BA3EB, #5DDAAA);
         color: white;
         border: none;
-        z-index: 1;
         font-size: 18px;
         margin-top: 30px;
     }
@@ -139,7 +136,6 @@
         background-position: top;
         height: 110vh;
         margin: -220px 0 0 0;
-        z-index: 1;
     }
 
     .detail-content{
@@ -155,7 +151,6 @@
         background: linear-gradient(#4BA3EB, #5DDAAA);
         color: white;
         border: none;
-        z-index: 1;
         font-size: 12px;
         margin-top: 50px;
     }

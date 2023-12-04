@@ -86,6 +86,8 @@
 
   .form .telepon p{
     font-size: 18px;
+    color: #3A3B41;
+    font-weight: 500;
   }
 
   .form .email{
@@ -103,6 +105,8 @@
 
   .form .email p{
     font-size: 18px;
+    color: #3A3B41;
+    font-weight: 500;
   }
 
   .form .lokasi{
@@ -120,6 +124,8 @@
 
   .form .lokasi p{
     font-size: 18px;
+    color: #3A3B41;
+    font-weight: 500;
   }
 
   .form2 .form-control{
@@ -147,7 +153,7 @@
   .form2 button{
     width: 600px;
     color: white;
-    background: '#3190DC';
+    background: #3190DC;
     height: 50px;
     font-size: 16px;
     margin-top: 15px;
@@ -207,7 +213,7 @@
     color: white;
     padding: 70px;
     padding-top: 300px;  
-    margin-left: 10px;  
+    margin-left: 15px;  
   }
 
   .hero .text {
@@ -258,7 +264,7 @@
 
   .form .icon{
     padding: 70px 0 0 0;
-    margin-left: -5px;
+    margin-left: -2px;
   }
 
   .form .icon ul{
@@ -323,7 +329,7 @@
   }
 
   .form2 .form-control{
-    height: 50px;
+    height: 45px;
     font-size: 12px;
   }
 

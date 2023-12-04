@@ -5,7 +5,7 @@
     }
     .navbar-logo{
         z-index: 1000;
-        margin-left: -8px;
+        margin-left: -4px;
     }
     .navbar-logo img{
 
@@ -17,7 +17,7 @@
     }
     .button-navbar-cover{
         z-index: 1000;
-        margin-right: -8px;
+        margin-right: -3px;
     }
     .button-navbar{
         background-color: #FFFFFF66;
@@ -131,5 +131,4 @@
         font-size: 15px;
     }
 }
-
 
