@@ -90,7 +90,7 @@
     }
 
     .unggul ul{
-        width: 560px;
+        width: 553px;
         height: 190px;
     }
     .unggul img{
@@ -146,7 +146,7 @@
 
     .tentang4-group img{
         padding-top: 30px;
-        width: 267px;
+        width: 268.8px;
     }
 
     .tentang4-group h1{
@@ -168,7 +168,7 @@
     .tentang5{
         padding: 70px;
         text-align: center;
-        margin-top: -40px;
+        margin-left: -10px;
     }
 
     .tentang5 h1{
@@ -440,7 +440,7 @@
         width: 717px;
         border-radius: 20px;
         margin: 10px;
-        margin-left: 0;
+        margin-left: 11px;
         margin-top: 50px;
         height: 399px;
     }
@@ -673,19 +673,23 @@
         font-weight: bold;
         margin-top: 20px;
         font-size: 25px;
+        padding: 6px;
+        width: 250px
     }
 
     .tentang4-desc{
         font-weight: normal;
         font-size: 15px;
         color: #1C2661;
+        padding: 6px;
     }
 
     .lihat{
         background: #3190DC;
         color: white;
-        padding-left: 20px;
         font-size: 11px;
+        padding: 6px;
+        margin-left: 7px;
     }
 
     .lihat img{
@@ -694,25 +698,25 @@
 
     .tentang4-group{
         text-decoration: none;
+        text-align: center;
     }
 
     .tentang4-group img{
         margin-top: 20px;
         width: 100%;
-        padding: 5px;
+        padding: 6px;
     }
 
     .tentang4-group h1{
         font-size: 20px;
         color: #19245F;
-        text-align: center;
         margin-top: 15px;
+        margin-left: 10px;
     }
 
     .tentang4-group p{
         font-size: 15px;
         color: #2E334E;
-        text-align: center;
         margin-top: 12px;
         font-weight: normal;
     }
@@ -734,17 +738,16 @@
     }
 
     .tentang5 h2{
-        width: auto;
+        width: 257px;
         border-radius: 15px;
-        margin: 10px;
-        margin-left: 0;
+        margin-left: 17px;
         margin-top: 30px;
-        height: auto;
+        height: 184px;
     }
 
     .tentang5 img{
-        width: 200px;
-        height: 130px;
-        margin-top: 2px;
+        width: 190px;
+        height: 120px;
+        margin-top: 5px;
     }
 }

@@ -82,7 +82,8 @@
     }
 
     .galeri2 img{
-        height: 291px;
+        height: 291.2px;
+        gap: 5px;
     }
 
     .galeri2-text{
@@ -421,8 +422,8 @@
        color: white;
        padding-top: 170px;
        margin: 0;
-       border-bottom-left-radius: 12px;
-       border-bottom-right-radius: 12px;
+       border-bottom-left-radius: 14px;
+       border-bottom-right-radius: 14px;
        font-size: 15px;
    }
    

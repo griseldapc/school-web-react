@@ -33,7 +33,7 @@ export default function Galeri() {
             <p className="galeri2-sekolah">Kegiatan Sekolah</p>
           </div>
 
-          <div className="galeri2-card d-flex flex-wrap gap-4">
+          <div className="galeri2-card d-flex flex-wrap gap-md-4 gap-lg-3 gap-4">
             {jsonGaleri.map((item, index) => (
               <a key={index} href="#" class="group">
                 <h1>
