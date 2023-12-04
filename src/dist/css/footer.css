@@ -1,0 +1,217 @@
+@media (max-width: 1440px){
+    .footer{
+        padding-top: 30px;
+        margin-left: 60px;
+    }
+    .bungkus-footer p{
+        width: 400px;
+        color: #1C2661;
+    }
+    .col-informasi .bungkus-informasi{
+        color: #1C2661;
+    }
+    .menu-informasi .menu{
+        color: #404040;
+    }
+    .col-tentang .bungkus-tentang{
+        color: #1C2661;
+    }
+    .menu-tentang .menu{
+        color: #404040;
+    }
+    .col-ikuti .bungkus-ikuti{
+        color: #1C2661;
+    }
+    .col-ikuti .menu-ikuti{
+        color: #404040;
+    }
+    .menu-ikuti .logo-sekolah{
+        height: 17px;
+        margin-top: 5px;
+    }
+    .garis{
+        margin-top: 30px;
+    }
+    .copy{
+        font-size: 15px;
+        text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .footer{
+        padding-top: 30px;
+        margin-left: 20px;
+
+    }
+    .bungkus-footer p{
+        width: 400px;
+        color: #1C2661;
+    }
+    .informasi{
+        padding-top: 20px;
+        width: 1500px;
+    }
+    .col-informasi{
+
+    }
+    .col-informasi .bungkus-informasi{
+        color: #1C2661;
+    }
+    .menu-informasi .menu{
+        color: #404040;
+    }
+    .col-tentang{
+
+    }
+    .col-tentang .bungkus-tentang{
+        color: #1C2661;
+    }
+    .menu-tentang .menu{
+        color: #404040;
+    }
+    .col-ikuti{
+
+    }
+    .col-ikuti .bungkus-ikuti{
+        color: #1C2661;
+    }
+    .col-ikuti .menu-ikuti{
+        color: #404040;
+    }
+    .menu-ikuti .logo-sekolah{
+        height: 17px;
+        margin-top: 5px;
+    }
+    .garis{
+        margin-top: 30px;
+    }
+    .copy{
+        font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+    .footer{
+        padding-top: 30px;
+        margin-left: 30px;
+        width: 270px;
+    }
+    .bungkus-footer{
+        width: 270px;
+    }
+    .bungkus-footer img{
+        width: 100px;
+    }
+    .bungkus-footer p{
+        color: #1C2661;
+    }
+    .bungkus-footer .text-footer{
+        width:270px;
+        font-size: 14px;
+    }
+    .informasi{
+        padding-top: 20px;
+        font-size: 14px;
+
+    }
+    .col-informasi{
+        margin-top: 10px;
+    }
+    .col-informasi .bungkus-informasi{
+        color: #1C2661;
+    }
+    .menu-informasi .menu{
+        color: #404040;
+    }
+    .col-tentang{
+        margin-top: 10px;
+    }
+    .col-tentang .bungkus-tentang{
+        color: #1C2661;
+    }
+    .menu-tentang .menu{
+        color: #404040;
+    }
+    .col-ikuti{
+        margin-top: 10px;
+    }   
+    .col-ikuti .bungkus-ikuti{
+        color: #1C2661;
+    }
+    .col-ikuti .menu-ikuti{
+        color: #404040;
+    }
+    .menu-ikuti .logo-sekolah{
+        height: 17px;
+        margin-top: 5px;
+    }
+    .garis{
+        margin-top: 30px;
+        width: 240px;
+    }
+     .copy{
+        width: 240px;
+        font-size: 10px;
+    }
+}
