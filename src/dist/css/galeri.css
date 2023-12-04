@@ -82,13 +82,13 @@
     }
 
     .galeri2 img{
-        height: 291.2px;
+        height: 295.5px;
         gap: 5px;
     }
 
     .galeri2-text{
         height: 200px;
-        width: 364px;
+        width: 369px;
         background-image: linear-gradient(180.13deg, rgba(255, 255, 255, 0) 54.94%, rgba(65, 118, 210, 0.576875) 90.77%, rgba(57, 113, 208, 0.6) 99.89%);
         text-align: center;
         color: white;

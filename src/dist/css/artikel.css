@@ -50,6 +50,7 @@
 
       .artikel2 .option{
         margin-bottom: 50px;
+        text-align: center;
       }
 
       .semua {
@@ -78,8 +79,7 @@
       .main-card{
         width: 1130px;
         border-radius: 20px;
-        margin: 10px;
-        margin-left: -3px;;
+        margin: 5px;
         height: 415px;
       }
 
@@ -125,10 +125,9 @@
         color: #3190DC;
       }
 
-      .mini-card{
+      .mini-card2{
         margin-top: 50px;
         width: 1200px;
-        margin-left: -4px;
       }
 
       .group{
@@ -139,7 +138,7 @@
         width: 360px;
         border-radius: 20px;
         margin: 10px;
-        margin-left: 0px;
+        margin-left: 2px;
         height: 440px;
       }
 
@@ -376,7 +375,7 @@
   margin-top: -10px;
 }
 
-.mini-card{
+.mini-card2{
   margin-top: 30px;
   margin-left: -50px;
   width: 745px;
@@ -422,7 +421,7 @@
   font-size: 13px;
   font-weight: normal;
   text-align: justify;
-  color: black;
+  color: #3A3B41;
 }
 
 .baca{
@@ -589,7 +588,7 @@
   }
   
   .main-card{
-    width: 265px;
+    width: 260px;
     border-radius: 20px;
     margin: 10px;
     height: 624px;
@@ -599,7 +598,7 @@
   .main-card img{
     width: 220px;
     height: 150px;
-    margin-left: -3px;
+    margin-left: -5px;
     margin-top: -3px;
   }
   
@@ -611,6 +610,7 @@
     font-size: 14px;
     position: absolute;
     margin-top: -20px;
+    margin-left: -5px;
   }
   
   .judul{
@@ -619,7 +619,7 @@
     font-size: 17px;
     width:220px;
     padding-top: 25px;
-    margin-left: -35px;
+    margin-left: -37px;
   }
   
   .deskripsi{
@@ -628,26 +628,26 @@
     text-align: justify;
     color: black;
     margin-top: 2px;
-    margin-left: -35px;
+    margin-left: -37px;
     width: 220px;
   }
   
   .penulis{
     font-size: 10px;
     margin-top: -13px;
-    margin-left: -35px;
+    margin-left: -37px;
   }
   
   .selengkapnya{
     font-size: 13px;
     color: #3190DC;
-    margin-left: -35px;
+    margin-left: -37px;
   }
   
-  .mini-card{
+  .mini-card2{
     margin-top: 15px;
     margin-left: -10px;
-    width: 145px;
+    width: 13px;
     gap: 5px;
     display: flex;
   }
@@ -657,10 +657,11 @@
   }
   
   .cover{
-    width: 267px;
+    width: 255px;
     border-radius: 20px;
     margin: 10px;
     height: 425px;
+    margin-left: 15px;
   }
   
   .bungkus{

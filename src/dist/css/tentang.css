@@ -90,7 +90,7 @@
     }
 
     .unggul ul{
-        width: 553px;
+        width: 560px;
         height: 190px;
     }
     .unggul img{
@@ -133,11 +133,11 @@
         background: #3190DC;
         color: white;
         padding-left: 20px;
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .lihat img{
-        width: 30px;
+        width: 20px;
     }
 
     .tentang4-group{
@@ -146,7 +146,7 @@
 
     .tentang4-group img{
         padding-top: 30px;
-        width: 268.8px;
+        width: 273px;
     }
 
     .tentang4-group h1{
@@ -168,7 +168,6 @@
     .tentang5{
         padding: 70px;
         text-align: center;
-        margin-left: -10px;
     }
 
     .tentang5 h1{
@@ -251,7 +250,6 @@
 
 
 @media (max-width: 768px){
-
     /* SECTION 1 */
     .tentang1{
         position: relative;
@@ -437,10 +435,10 @@
     }
 
     .tentang5 h2{
-        width: 717px;
+        width: 715px;
         border-radius: 20px;
         margin: 10px;
-        margin-left: 11px;
+        margin-left: 2px;
         margin-top: 50px;
         height: 399px;
     }
@@ -615,7 +613,7 @@
         background-position: top;
         height: 270vh;
         z-index: 1;
-        margin-top: -180px;
+        margin-top: -250px;
         padding: 35px;
     }
 
@@ -665,7 +663,7 @@
 
     /* SECTION 4 */
     .tentang4-bungkus{
-        margin-top:-20px;
+        margin-top:-50px;
         padding: 25px;
     }
 
@@ -740,7 +738,6 @@
     .tentang5 h2{
         width: 257px;
         border-radius: 15px;
-        margin-left: 17px;
         margin-top: 30px;
         height: 184px;
     }

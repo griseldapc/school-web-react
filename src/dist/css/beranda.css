@@ -4,7 +4,7 @@
         position: relative;
         background-size: cover;
         background-position: top;
-        height: 122vh;
+        height: 125vh;
         margin-top: -220px;
         z-index: 1;
     }
@@ -61,20 +61,21 @@
     .beranda2 p{
         width: 650px;
         text-align: justify;
+        font-size: 20px;
     }
 
     /* SECTION 3 */
     .beranda3{
         background-size: cover;
         background-position: top;
-        height: 120vh;
+        height: 122vh;
         z-index: 1;
         margin-top: -70px
     }
 
     .beranda3-bungkus{
         padding: 70px;
-        padding-top: 220px;
+        padding-top: 202px;
         justify-content: center;
         align-items: center;
     }
@@ -84,8 +85,8 @@
     }
 
     .beranda3-group ul{
-        width: 550px;
-        height: 215px;
+        width: 557px;
+        height: 195px;
     }
 
     .beranda3-gambar{
@@ -97,6 +98,7 @@
         color: #1C2661;
         font-weight: bold;
         margin-top: 15px;
+        font-size: 24px;
     }
 
     .beranda3 p{
@@ -123,14 +125,14 @@
     }
 
     .beranda4-lihat{
-        background: #3190DC;
-        color: white;
-        padding-left: 20px;
-        font-size: 17px;
+            background: #3190DC;
+            color: white;
+            padding-left: 20px;
+            font-size: 15px;
     }
 
     .beranda4-lihat img{
-        width: 30px;
+        width: 20px;
     }
 
     .beranda4-group-gambar{
@@ -139,7 +141,7 @@
 
     .beranda4-group-gambar img{
         padding-top: 30px;
-        width: 262px;
+        width: 266.5px;
     }
 
     /* SECTION 5 */
@@ -150,11 +152,12 @@
 
     .beranda5-judul{
         font-weight: bold;
+        margin-top: 20px;
         font-size: 50px;
     }
 
     .beranda5-bungkus{
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
     .beranda5-bungkus ul{
@@ -163,28 +166,31 @@
     }
 
     .beranda5-bungkus semua{
-        font-weight: bold;
-        margin-bottom: 5px;
-        color: #404040;
-        border-color: #3190DC;
-        width: 100px;
+        font-weight: bolder;
+        border-bottom: 3px solid #3190DC;
+        width: 150px;
+        display: inline-block;
         text-align: center;
+        padding-bottom: 10px;
+        color: #404040;
         font-size: 20px;
     }
 
     .beranda5-bungkus p{
+        margin-top: -10px;
         color: #404040;
-        font-size: 20px;
+        font-size: 20px;    
     }
 
     .beranda5-lihat{
         color: #3190DC;
+        font-size: 20px;
+        margin-top: -10px;
     }
 
     .beranda5-lihat img{
         width: 30px;
         font-weight: normal;
-        font-size: 20px;
     }
 
     .beranda5-group-card{
@@ -192,11 +198,11 @@
     }
 
     .beranda5-group-card h1{
-        width: 350px;
+        width: 357px;
         border-radius: 20px;
         margin: 10px;
         margin-left: 0;
-        height: 420px
+        height: 425px
     }
 
     .beranda5-group-card ul{
@@ -216,7 +222,7 @@
         font-size: 14px;
     }
 
-    .beranda5-judul{
+    .beranda5-judul-card{
         font-weight: bold;
         padding-top: 17px;
         color: #1C2661;
@@ -230,4 +236,691 @@
         color: #3A3B41;
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+     /* SECTION 1 */
+     .beranda1{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 135vh;
+        margin-top: -300px;
+        z-index: 1;
+    }
+
+    .beranda1-gambar{
+        position: relative;
+        z-index: 1000;
+        margin-top: 150px;
+        color: white;
+        padding: 70px;
+        padding-top: 300px;   
+    }
+
+    .beranda1-bungkus{
+        z-index: 2;
+        margin-left: -40px;
+        padding-top:30px;
+    }
+
+    .beranda1-bungkus h1{
+        font-size: 30px;
+        margin-top: -50px;
+        width: 450px;
+    }
+
+    .beranda1-bungkus p{
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .beranda1-bungkus .daftar{
+        color: #58C9BF;
+    }
+
+    .beranda1-image{
+        z-index: 2;
+    }
+
+    .beranda1-image img{
+        width: 320px;
+        margin-left: -59px;
+        margin-top: -10px;
+    }
+
+    /* SECTION 2 */
+    .beranda2{
+        padding-top: 50px;
+        padding: 20px;
+    }
+
+    .beranda2 img{
+        width: 250px;
+    }
+
+    .beranda2 h1{
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: -45px;
+    }
+
+    
+    .beranda2 p{
+        width: 380px;
+        text-align: justify;
+        font-size: 15px;
+        margin-left: -45px;
+        
+    }
+
+    /* SECTION 3 */
+    .beranda3{
+        background-size: cover;
+        background-position: top;
+        height: 122vh;
+        z-index: 1;
+    }
+
+    .beranda3-bungkus{
+        margin-top: 30px;
+        justify-content: center;
+        padding: 10px;
+        padding-top: 190px;
+    }
+    
+
+    .beranda3-group{
+        text-decoration: none;
+    }
+
+    .beranda3-group ul{
+        width: 348px;
+        height: 145px;
+    }
+
+    .beranda3-gambar{
+        height: 60px;
+    }
+
+    .beranda3 h1{
+        color: #1C2661;
+        font-weight: bold;
+        margin-top: 15px;
+        font-size: 17px;
+    }
+
+    .beranda3 p{
+        width: auto;
+        color: #3A3B41;
+        font-size: 12px;
+    }
+
+    /* SECTION 4 */
+    .beranda4{
+        margin-top:70px;
+        padding: 29px;
+    }
+
+    .beranda4 h1{
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .beranda4 p{
+        font-weight: normal;
+        font-size: 15px;
+        color: #1C2661;
+    }
+
+    .beranda4-lihat{
+        background: #3190DC;
+        color: white;
+        padding-left: 20px;
+        font-size: 12px;
+    }
+
+    .beranda4-lihat img{
+        width: 20px;
+    }
+
+    .beranda4-group-gambar{
+        tex-decoration: none;
+    }
+
+    .beranda4-group-gambar img{
+        padding-top: 30px;
+        width: 166px;
+    }
+
+    /* SECTION 5 */
+    .beranda5{
+        margin-top:70px;
+        padding: 29px;
+    }
+
+    .beranda5-judul{
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+    .beranda5-bungkus{
+        padding-top: 40px;
+    }
+
+    .beranda5-bungkus ul{
+        font-weight: normal;
+        padding-left: 0;
+    }
+
+    .beranda5-bungkus semua{
+        font-weight: bolder;
+        border-bottom: 3px solid #3190DC;
+        width: 150px;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 10px;
+        color: #404040;
+        font-size: 15px;
+    }
+
+    .beranda5-bungkus p{
+        margin-top: -10px;
+        color: #404040;
+        font-size: 15px;    
+    }
+
+    .beranda5-lihat{
+        color: #3190DC;
+        font-size: 15px;
+        margin-top: -15px;
+        margin-right: -9px;
+    }
+
+    .beranda5-lihat img{
+        width: 18px;
+        font-weight: normal;
+    }
+
+    .beranda5-group-card{
+        text-decoration: none;
+    }
+
+    .beranda5-group-card h1{
+        width: 225px;
+        border-radius: 20px;
+        margin: 10px;
+        height: 395px;
+        margin-left: 0px;
+    }
+
+    .beranda5-group-card ul{
+        padding-left: 0;
+    }
+
+    .beranda5-group-card img{
+        width: 100%;
+    }
+
+    .beranda5-card{
+        background: linear-gradient(#4BA3EB, #5DDAAA);
+        color: white;
+        border: none;
+        z-index: 1;
+        font-size: 14px;
+        position: absolute;
+    }
+
+    .beranda5-judul-card{
+        font-weight: bold;
+        padding-top: 17px;
+        color: #1C2661;
+        font-size: 17px;
+    }
+
+    .beranda5-desc{
+        font-size: 13px;
+        font-weight: normal;
+        text-align: justify;
+        color: #3A3B41;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px){
+     /* SECTION 1 */
+     .beranda1{
+        position: relative;
+        background-size: cover;
+        background-position: top;
+        height: 200vh;
+        margin: -300px 0 0 0;
+        z-index: 1;
+    }
+
+    .beranda1-gambar{
+        position: relative;
+        z-index: 1000;
+        margin-top: 150px;
+        color: white;
+        padding: 70px;
+        padding-top: 300px;  
+        margin-left: 4px;
+    }
+
+    .beranda1-bungkus{
+        z-index: 2;
+    }
+
+    .beranda1-bungkus h1{
+        font-size: 35px;
+        width: 220px;
+    }
+
+    .beranda1-bungkus p{
+        width: 250px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .beranda1-bungkus .daftar{
+        color: #58C9BF;
+        font-size: 10px;
+    }
+
+    .beranda1-image{
+        z-index: 2;
+        margin-left: 20px;
+    }
+
+    .beranda1-image img{
+        width: 250px;
+        margin-top: 60px;
+    }
+
+    /* SECTION 2 */
+    .beranda2{
+        padding: 20px;
+    }
+
+    .beranda2 img{
+        width: 250px;
+        margin-left: 16px;
+    }
+
+    .beranda2 h1{
+        font-weight: bold;
+        font-size: 25px;
+        padding-left: 30px;
+        margin-top: 50px;
+    }
+
+    
+    .beranda2 p{
+        width: 277px;
+        text-align: justify;
+        font-size: 13px;
+        padding-left: 30px;
+        
+    }
+
+    /* SECTION 3 */
+    .beranda3{
+        background-size: cover;
+        background-position: top;
+        height: 240vh;
+        z-index: 1;
+        margin-top: -180px;
+        padding: 35px;
+    }
+
+    .beranda3-bungkus{
+        margin-top: 30px;
+        justify-content: center;
+        padding: 10px;
+        padding-top: 255px;
+    }
+    
+
+    .beranda3-group{
+        text-decoration: none;
+    }
+
+    .beranda3-group ul{
+        width: 250px;
+        height: 225px;
+        text-align: center;
+    }
+
+    .beranda3-gambar{
+        height: 60px;
+        margin-top: 10px;
+    }
+
+    .beranda3 h1{
+        color: #1C2661;
+        font-weight: bold;
+        margin-top: 15px;
+        font-size: 17px;
+    }
+
+    .beranda3 p{
+        width: auto;
+        color: #3A3B41;
+        font-size: 12px;
+    }
+
+    /* SECTION 4 */
+    .beranda4{
+        margin-top:-20px;
+        padding: 30px;
+    }
+
+    .beranda4 h1{
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 6px;
+        width: 250px
+    }
+
+    .beranda4 p{
+        font-weight: normal;
+        font-size: 15px;
+        color: #1C2661;
+        padding: 6px;
+        margin-top: -10px;
+    }
+
+    .beranda4-lihat{
+        background: #3190DC;
+        color: white;
+        font-size: 11px;
+        padding: 6px;
+        margin-left: 7px;
+        margin-top: -10px;
+    }
+
+    .beranda4-lihat img{
+        width: 20px;
+    }
+
+    .beranda4-group-gambar{
+        tex-decoration: none;
+        margin-left: 5px;
+    }
+
+    .beranda4-group-gambar img{
+        padding-top: 30px;
+        width: 250px;
+    }
+
+    /* SECTION 5 */
+    .beranda5{
+        margin-top: 20px;
+        padding: 27px;
+        margin-left: 8px;
+    }
+
+    .beranda5-judul{
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 25px;
+        padding: 6px;
+        width: 250px
+    }
+
+    .beranda5-bungkus{
+        padding-top: 10px;
+    }
+
+    .beranda5-bungkus ul{
+        font-weight: normal;
+        padding-left: 0;
+        gap: 29px;
+    }
+
+    .beranda5-bungkus semua{
+        font-weight: bolder;
+       color: #404040;
+       font-size: 12px;
+       display: inline-block;
+       width: 57px;
+    }
+
+    .beranda5-bungkus p{
+        margin-top: -10px;
+        color: #404040;
+        font-size: 12px;    
+    }
+
+    .beranda5-lihat{
+        color: #3190DC;
+        font-size: 12px;
+        margin-top: -15px;
+        margin-right: -9px;
+        text-align: center;
+    }
+
+    .beranda5-lihat img{
+        width: 15px;
+        font-weight: normal;
+    }
+
+    .beranda5-group-card{
+        text-decoration: none;
+    }
+
+    .beranda5-group-card h1{
+        width: 250px;
+        border-radius: 20px;
+        margin: 10px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .beranda5-group-card ul{
+        padding-left: 0;
+    }
+
+    .beranda5-group-card img{
+        width: 100%;
+    }
+
+    .beranda5-card{
+        background: linear-gradient(#4BA3EB, #5DDAAA);
+        color: white;
+        border: none;
+        z-index: 1;
+        font-size: 14px;
+        position: absolute;
+    }
+
+    .beranda5-judul-card{
+        font-weight: bold;
+        padding-top: 17px;
+        color: #1C2661;
+        font-size: 17px;
+    }
+
+    .beranda5-desc{
+        font-size: 13px;
+        font-weight: normal;
+        text-align: justify;
+        color: #3A3B41;
+    }
 }
