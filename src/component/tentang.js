@@ -73,7 +73,7 @@ export default function Beranda() {
                   <img src="../../asset/header-footer/next.png" alt="Icon" />
                 </button>
               </h2>
-              <h3 className=" tentang4-card d-lg-flex d-md-flex flex-md-wrap gap-lg-3 gap-md-3">
+              <h3 className=" tentang4-card d-lg-flex d-md-flex flex-md-wrap gap-lg-4 gap-md-3">
                 {jsonGuru.map((item, index) => (
                   <a key={index} href="#" className="tentang4-group">
                     <img src={item.image}></img>
