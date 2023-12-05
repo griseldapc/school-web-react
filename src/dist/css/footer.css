@@ -2,6 +2,7 @@
     .footer{
         padding-top: 30px;
         margin-left: 60px;
+        clear: both;
     }
     .bungkus-footer p{
         width: 400px;
@@ -79,9 +80,13 @@
         margin-left: 20px;
 
     }
+    .bungkus-footer img{
+        width: 100px;
+    }
     .bungkus-footer p{
         width: 400px;
         color: #1C2661;
+        font-size: 15px;
     }
     .informasi{
         padding-top: 20px;
@@ -95,24 +100,34 @@
     }
     .menu-informasi .menu{
         color: #404040;
+        font-size: 15px;
+        margin-top: -7px;
     }
     .col-tentang{
 
     }
     .col-tentang .bungkus-tentang{
         color: #1C2661;
+        margin-left: 34px;
     }
     .menu-tentang .menu{
         color: #404040;
+        font-size: 15px;
+        margin-top: -7px;
+        margin-left: 34px;
     }
     .col-ikuti{
 
     }
     .col-ikuti .bungkus-ikuti{
         color: #1C2661;
+        margin-left: 80px;
     }
     .col-ikuti .menu-ikuti{
         color: #404040;
+        font-size: 15px;
+        margin-top: -7px;
+        margin-left: 80px;
     }
     .menu-ikuti .logo-sekolah{
         height: 17px;
@@ -153,7 +168,7 @@
 
 @media (max-width: 320px){
     .footer{
-        padding-top: 30px;
+        padding-top: 50px;
         margin-left: 30px;
         width: 270px;
     }
@@ -183,24 +198,34 @@
     }
     .menu-informasi .menu{
         color: #404040;
+        font-size: 14px;
+        margin-top: -10px;
     }
     .col-tentang{
         margin-top: 10px;
     }
     .col-tentang .bungkus-tentang{
         color: #1C2661;
+        margin-left: -1px;
     }
     .menu-tentang .menu{
         color: #404040;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: -1px;
     }
     .col-ikuti{
         margin-top: 10px;
     }   
     .col-ikuti .bungkus-ikuti{
         color: #1C2661;
+        margin-left: -1px;
     }
     .col-ikuti .menu-ikuti{
         color: #404040;
+        font-size: 14px;
+        margin-top: -10px;
+        margin-left: -1px;
     }
     .menu-ikuti .logo-sekolah{
         height: 17px;

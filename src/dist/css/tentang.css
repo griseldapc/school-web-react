@@ -135,6 +135,7 @@
         color: white;
         padding-left: 20px;
         font-size: 15px;
+        margin-right: 7px;
     }
 
     .lihat img{
@@ -147,7 +148,7 @@
 
     .tentang4-group img{
         padding-top: 30px;
-        width: 268.5px;
+        width: 271px;
     }
 
     .tentang4-group h1{
@@ -182,7 +183,7 @@
     }
 
     .tentang5 h2{
-        width: 1130px;
+        width: 1135px;
         border-radius: 20px;
         margin: 10px;
         margin-left: -5px;;
@@ -278,7 +279,7 @@
     }
 
     .tentang1-text h1{
-        font-size: 50px;
+        font-size: 45px;
         margin-top: -70px;
     }
 
@@ -310,6 +311,7 @@
 
     .tentang2 h1{
         font-weight: bold;
+        font-size: 40px;
     }
 
     .tentang2 p{
@@ -600,6 +602,7 @@
 
     .tentang2 h1{
         font-weight: bold;
+        font-size: 32px;
     }
 
     .tentang2 p{
@@ -690,6 +693,7 @@
         font-size: 11px;
         padding: 6px;
         margin-left: 7px;
+        padding-left: 12px;
     }
 
     .lihat img{

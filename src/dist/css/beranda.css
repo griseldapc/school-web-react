@@ -132,6 +132,7 @@
             color: white;
             padding-left: 20px;
             font-size: 15px;
+            margin-right: 10px;
     }
 
     .beranda4-lihat img{
@@ -144,7 +145,7 @@
 
     .beranda4-group-gambar img{
         padding-top: 30px;
-        width: 263px;
+        width: 265px;
     }
 
     /* SECTION 5 */
@@ -202,7 +203,7 @@
     }
 
     .beranda5-group-card h1{
-        width: 352px;
+        width: 355px;
         border-radius: 20px;
         margin: 10px;
         margin-left: 0;
@@ -373,6 +374,7 @@
 
     .beranda1-bungkus .daftar{
         color: #58C9BF;
+        font-size: 12px;
     }
 
     .beranda1-image{
@@ -415,6 +417,7 @@
         background-position: top;
         height: 122vh;
         z-index: 1;
+        margin-top: -90px;
     }
 
     .beranda3-bungkus{
@@ -453,7 +456,7 @@
 
     /* SECTION 4 */
     .beranda4{
-        margin-top:70px;
+        margin-top:30px;
         padding: 29px;
     }
 
@@ -491,7 +494,7 @@
 
     /* SECTION 5 */
     .beranda5{
-        margin-top:70px;
+        margin-top:30px;
         padding: 29px;
     }
 
@@ -746,7 +749,7 @@
         background-position: top;
         height: 240vh;
         z-index: 1;
-        margin-top: -180px;
+        margin-top: -220px;
         padding: 35px;
     }
 
@@ -788,7 +791,7 @@
 
     /* SECTION 4 */
     .beranda4{
-        margin-top:-20px;
+        margin-top:-60px;
         padding: 30px;
     }
 
@@ -815,6 +818,7 @@
         padding: 6px;
         margin-left: 7px;
         margin-top: -10px;
+        padding-left: 12px;
     }
 
     .beranda4-lihat img{
@@ -833,7 +837,7 @@
 
     /* SECTION 5 */
     .beranda5{
-        margin-top: 20px;
+        margin-top: -20px;
         padding: 27px;
         margin-left: 8px;
     }
@@ -875,7 +879,6 @@
         font-size: 12px;
         margin-top: -15px;
         margin-right: -9px;
-        text-align: center;
     }
 
     .beranda5-lihat img{

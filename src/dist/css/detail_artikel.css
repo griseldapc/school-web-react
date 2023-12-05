@@ -1,11 +1,13 @@
+
 @media (max-width: 1440px){
     .detail-artikel{
-        position: relative;
         background-size: cover;
         background-position: top;
         height: 138vh;
-        margin: -220px 0 0 0;
-        z-index: 1000;
+        margin-top: -220px;
+        position: relative;
+        margin-bottom: 1300px;
+        
     }
 
     .detail-content{
@@ -39,7 +41,7 @@
     }
 
     .deskripsi-content{
-       width: 1120px;
+       width: 1135px;
        font-size: 18px;
        margin-top: 10px;
        text-align: justify;
@@ -70,6 +72,7 @@
         background-position: top;
         height: 138vh;
         margin: -220px 0 0 0;
+        margin-bottom: 1450px;
     }
 
     .detail-content{
@@ -134,12 +137,13 @@
         position: relative;
         background-size: cover;
         background-position: top;
-        height: 110vh;
+        height: 90vh;
         margin: -220px 0 0 0;
+        margin-bottom: 1750px;
     }
 
     .detail-content{
-        padding: 30px;
+        padding: 35px;
     }
 
     .detail-content img{
@@ -152,7 +156,7 @@
         color: white;
         border: none;
         font-size: 12px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .judul-content{
@@ -169,7 +173,7 @@
     }
 
     .deskripsi-content{
-       width: 260px;
+       width: 250px;
        font-size: 12px;
        margin-top: 10px;
        text-align: justify;
